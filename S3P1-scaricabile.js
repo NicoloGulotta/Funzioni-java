@@ -3,9 +3,9 @@
  La funzione deve ritornare la somma di quei due valori, ma se il loro valore è lo stesso allora deve ritornare la loro somma moltiplicata per 3.
 
 function crazySum(a =3, b=3)  {
-  console.log(a + b);
+  return a + b;
   if (a === b) {
-    console.log((a + b) * 3);
+    return(a + b) * 3;
   }
 }
 crazySum();
@@ -16,12 +16,12 @@ crazySum();
 // let num = 100;
 // function boundary(parametri) {
 //   if (num > 20 && num <= 100) {
-//     console.log(true);
+//     return true;
 //   } else if (num === 400) {
-//     console.log(true);
+//     return true;
 //   }
 // }
-// boundary();
+// boundary(num)
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
@@ -31,10 +31,10 @@ crazySum();
 //   let parolaDivisa = parola.split('');
 //   let parolainversa = parolaDivisa.reverse();
 //   let reverseparola = parolainversa.join('');
-//   console.log(reverseparola);
+//   return reverseparola;
 // }
-// reverseString()
-
+// let re = reverseString(parola);
+// console.log(re);
 /* Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
 // let parola = 'epicode';
