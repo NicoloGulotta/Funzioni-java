@@ -1,35 +1,34 @@
 /* ESERCIZIO 1
  Scrivi una funzione chiamata "crazySum" che riceve due numeri interi come parametri.
  La funzione deve ritornare la somma di quei due valori, ma se il loro valore è lo stesso allora deve ritornare la loro somma moltiplicata per 3.
-*/
 
-// function crazySum(a=3,b=3) {
-//     console.log(a + b);
-//     if (a === b) {
-//    console.log((a+b)*3);
-//     }
-// }
-// crazySum();
+function crazySum(a =3, b=3)  {
+  console.log(a + b);
+  if (a === b) {
+    console.log((a + b) * 3);
+  }
+}
+crazySum();
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "boundary", che accetta un numero intero come parametro e ritorna true se tale parametro è incluso tra 20 e 100 (incluso) o se è esattamente uguale a 400.
 */
 // let num = 100;
 // function boundary(parametri) {
-//     if (num > 20 && num <= 100) {
-//         console.log(true);
-//     } else if (num === 400) {
-//         console.log(true);
-//     }
+//   if (num > 20 && num <= 100) {
+//     console.log(true);
+//   } else if (num === 400) {
+//     console.log(true);
+//   }
 // }
-//     boundary();
+// boundary();
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
 */
 // let parola = 'EPICODE';
 // function reverseString(stringa) {
-//   let parolaDivisa=parola.split('');
+//   let parolaDivisa = parola.split('');
 //   let parolainversa = parolaDivisa.reverse();
 //   let reverseparola = parolainversa.join('');
 //   console.log(reverseparola);
@@ -40,9 +39,9 @@
 */
 // let parola = 'epicode';
 // function upperFirst(srt) {
-//   parolaIniziale= parola.substring(0, 1).toUpperCase();
-//   parolaFinale= parola.substring(1,parola.length).toLowerCase();
-//   parolaComlpeta= parolaIniziale+parolaFinale;
+//   parolaIniziale = parola.substring(0, 1).toUpperCase();
+//   parolaFinale = parola.substring(1, parola.length).toLowerCase();
+//   parolaComlpeta = parolaIniziale + parolaFinale;
 //   console.log(parolaComlpeta);
 // }
 // upperFirst();
@@ -50,10 +49,12 @@
 // /* ESERCIZIO 5
 /* Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
 */
-function giveMeRandom(min,max){
-  return Math.random() 
-}
-giveMeRandom()
+
+// function giveMeRandom(num) {
+
+//   console.log( Math.floor(Math.random() * 10) + 1);
+// }
+// giveMeRandom()
 
 
 //EXTRA:
